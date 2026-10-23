@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.T.L.A.S - IA</title>
+    <link rel="stylesheet" href="../css/diseño2.css">
+</head>
+<body>
+    <h1>A.T.L.A.S · Estudia con la IA</h1>
+    <h3>Pregunta tus dudas sobre el tema que estás estudiando</h3>
+
+    <div class="contenedor">
+        <div class="menu" style="text-align: left;">
+            <div class="contexto" id="contexto" hidden style="margin-bottom: 10px;">
+                <span id="contexto-texto"></span>
+                <button id="quitar-contexto" type="button" style="background:none; border:none; color:red; cursor:pointer; font-weight:bold;">Quitar</button>
+            </div>
+            
+            <div class="boton"><a href="../index.html"><b>VOLVER AL INICIO</b></a></div>
+        </div>
+
+        <div class="menu" style="text-align: left; width: 170%;">
+            <h3>Chat con la IA</h3>
+            <br>
+            <div class="chat" id="chat" style="background:#fff; border-radius:10px; padding:10px; min-height:250px; max-height:40vh; overflow-y:auto; border:1px solid #1c0e5c; margin-bottom:10px;"></div>
+
+            <form class="entrada" id="form-chat" style="display:flex; gap:5px;">
+                <input id="texto-chat" type="text" placeholder="Escribe tu duda…" autocomplete="off" style="flex:1; padding:8px; border-radius:5px; border:2px solid #1c0e5c;">
+                <div class="boton" style="margin-bottom:0;"><button class="btn" id="btn-enviar" type="submit" style="background:#3200e6; color:white; border:none; padding:8px 12px; border-radius:5px; cursor:pointer;"><b>Enviar</b></button></div>
+            </form>
+        </div>
+    </div>
+
+    <footer><h1>creado por Benja :v</h1></footer>
+
+    <script src="../js/ia.js"></script>
+</body>
+</html>
